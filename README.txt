@@ -5,7 +5,7 @@ strengthening them and allowing them to grow to huge proportions. These minerals
 tree leaving blooms, 9 of which can be crafted together to make the lump or crystal of the specific mineral. This applies to all trees
 except the coal tree, the bark of which can instead be used as an effective fuel.
 
-This mod depends on both the Default mod included with Minetest, and the plants_lib library by VanessaE. Both these mods must be installed in
+This mod depends on both the Default mod included with Minetest, and the biome_lib library by VanessaE. Both these mods must be installed in
 order for this mod to not crash on startup.
 
 I hope this mod helps!
