@@ -83,8 +83,8 @@ function mineraltrees.register_mineral_tree(mineral, has_bloom, tree_rarity, ena
 		minetest.spawn_tree(pos, tree_def)
 	end
 	
-	--registers plant growing with plants_lib
-	plantslib:grow_plants({
+	--registers plant growing with biome_lib
+	biome_lib:grow_plants({
 		grow_delay = 10,
 		grow_chance = 1,
 		grow_plant = "mineraltrees:"..mineral.."sapling",

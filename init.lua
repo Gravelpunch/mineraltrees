@@ -82,8 +82,8 @@ mineraltrees.biome_def = {
 		temp_max = mineraltrees.temp_max
 	}
 
-	--registers tree spawning with plants_lib
-	plantslib:register_generate_plant(mineraltrees.biome_def, mineraltrees.sapling_rarity_array)		
+	--registers tree spawning with biome_lib
+	biome_lib:register_generate_plant(mineraltrees.biome_def, mineraltrees.sapling_rarity_array)		
 
 --Bark Splitter definition--
 minetest.register_craftitem("mineraltrees:splitter", {
